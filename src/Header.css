@@ -1,0 +1,87 @@
+/*
+height
+    - 높이지정
+flex: 유연성
+    - 가로로 쌓는다는 개념
+
+position: sticky
+    - 스크롤 위치에 따라서 위치를 지정
+z_index
+    - 겹치는 이미지에 대한 순서를 적용 가능하다
+object-fit
+    이미지에 대해서 딱 맞게 조정해준다
+    - contatin: 비율을 그대로 유지하면서 이미지를 조정가능하다
+
+*/
+
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: index 100;
+}
+
+.header_logo{
+    width: 100px;
+    object-fit:contain ;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header_search{
+    display: flex;
+    flex:1;
+    align-items: center;
+    border-radius: 24px;
+}
+.header_searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width:100%; 
+
+}
+
+.header_searchIcon{
+    background-color: #cd9042;
+    padding: 5px;
+    height: 22px;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly; 
+
+}
+
+.header_optionlineOne{
+    font-size: 10px;
+}
+.header_optionlineTwo{
+    font-size: 13px;
+    font-weight: 800px;
+    margin-top: 3px;
+
+}
+
+.header_optionBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.heaer_optionlineTwoheaer_basket{
+    margin-right: 10px;
+    margin-left: 10px;
+}

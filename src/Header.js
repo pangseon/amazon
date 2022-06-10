@@ -45,14 +45,14 @@ function Header() {
                     <span className='header_optionlineTwo'>구독과 좋아요</span>
 
                 </div>
-
+<Link to ='/checkout'>
             <div className="header_optionBasket">
               <ShoppingBasket/>
               <span className='heaer_optionlineTwoheaer_basket'>
                 0
                     </span>  
             </div>
-
+</Link>
 
 
 

@@ -2,6 +2,7 @@ import React from 'react';
 import "./Header.css"
 import SearchIcon from '@mui/icons-material/Search';
 import { ShoppingBasket } from '@mui/icons-material';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 /*
@@ -17,9 +18,10 @@ span
 function Header() {
     return (
         <div className='header'>
+            <Link to='/'>
             <img className='header_logo' src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
             />
-
+            </Link>
             <div className='header_search'>
             <input className='header_searchInput' type="text"/>
             <SearchIcon className='header_searchIcon'/>

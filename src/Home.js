@@ -16,14 +16,23 @@ function Home() {
                     </div>
                     
                     <div className='home_row'>
-                        <Product/>
-                        <Product/>
-                        <Product/>
+                        <Product id='2324' title='쿠팡'
+                        price={3001} img='https://image.newdaily.co.kr/site/data/img/2022/05/12/2022051200013_0.png'
+                        rating={4}/>
+
+                        <Product id='2324' title='제품2'
+                        price={3001} img='https://blog.kakaocdn.net/dn/ulsAm/btqB9w2kuwz/o2cNKALorND83K2rrZ9YF1/img.jpg'
+                        rating={5}/>
+                        <Product id='2324' title='제품2'
+                        price={3001} img='https://image.newdaily.co.kr/site/data/img/2022/05/12/2022051200013_0.png'
+                        rating={8}/>
          
                     </div>
 
                     <div className='home_row'>
-                        <Product/>
+                        <Product id='2324' title='제품2'
+                        price={3001} img='https://image.newdaily.co.kr/site/data/img/2022/05/12/2022051200013_0.png'
+                        rating={3}/>
 
                     </div>
 

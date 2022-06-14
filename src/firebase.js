@@ -6,9 +6,6 @@ import "firebase/compat/storage";
 
 
 
-
-
-
 const firebaseConfig = {
     apiKey: "AIzaSyCyeLWK2phAW0SZ83NaWOcEmN3bUnS0NVs",
     authDomain: "fir-91e37.firebaseapp.com",

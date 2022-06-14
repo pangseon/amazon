@@ -4,6 +4,8 @@ import { useStateValue } from './StateProvider';
 function Product  ({title,price,id,rating,img})  {
     const [{basket},dispatch]=useStateValue();
 
+
+    // basket에 정보 추가 기능
 const addToBasket= ()=> {
     dispatch({
         type:'Add_TO_BASKET',

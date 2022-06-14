@@ -43,7 +43,7 @@ function Login() {
             alt=''/>
             </Link>
             <div className='login_container'>
-                <h1>로그인하기</h1>
+                <h1>로그인</h1>
                 <form>
                     <h5>이메일</h5>
                     <input value={email} onChange={e=> setEmail(e.target.value)}type ='text'/>
